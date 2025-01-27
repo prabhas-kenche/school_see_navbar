@@ -1,7 +1,8 @@
-import 'package:school_see_navbar/homepage.dart';
+// lib/main.dart
 import 'package:flutter/material.dart';
+import 'package:school_see_navbar/homepage.dart'; // Import HomePage correctly
 
-void main(){
+void main() {
   runApp(const MyApp());
 }
 
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomePage(),
+      home: HomePage(), // Use HomePage as the starting point
     );
   }
 }
