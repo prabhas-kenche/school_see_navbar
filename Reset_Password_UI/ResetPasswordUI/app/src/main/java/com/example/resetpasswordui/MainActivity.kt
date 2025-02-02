@@ -169,7 +169,7 @@ fun ResetPasswordScreen() {
                             onClick = { /* TODO: Implement send functionality */ },
                             shape = RoundedCornerShape(12.dp),
                             colors = ButtonDefaults.buttonColors(containerColor = Color(0xFFFFEB3B)),
-                            modifier = Modifier.fillMaxWidth(0.5f)
+                            modifier = Modifier.width(100.dp) // 👈 Reduced button width
                         ) {
                             Text(text = "Send", fontSize = 16.sp, color = Color.Black)
                         }
